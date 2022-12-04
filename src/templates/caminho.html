@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="p-3 ps-5 mb-5">
+            <a href="/" style="padding: 8px 16px; display: inline-block;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+            </a>
+        </div>
+          <div align="center" style="margin-bottom: 2em;">
+            <img class="img-fluid rounded mx-auto d-block" width="60%" src="../static/images/mapa-beto-carrero-world-com-linhas.png" alt="" >
+        </div>
+        <br>
+        <div align="center" class="mb-5">
+            {% if path | length > 0%}
+            <h3> <span class="badge bg-secondary">Para ir de {{partida}} para {{destino}} siga:</span></h3>
+            <ol style="width: 30%">
+                    {% for i in path %}
+                        <li>{{i}}</li>
+                        </br>
+                    {% endfor %}
+            </ol>
+            {% else %}
+                <h3> <span class="badge bg-secondary">Parece que você ja está em {{partida}}!</span></h3>
+            {% endif %}
+        </div>
+    </body>
+</html>

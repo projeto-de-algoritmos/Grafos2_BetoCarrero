@@ -6,7 +6,7 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 17/0011267 |  Giovanna Borges Bottino |
+| 17/0011267  |  Giovanna Borges Bottino        |
 | 18/0119818  |  Felipe Boccardi Silva Agustini |
 
 ## Sobre 
@@ -27,8 +27,13 @@ python3 -m venv env
 ### Ative o ambiente
 ```
 source env/bin/activate
-```
 
+```
+ou se estiver usando windows
+
+```
+ .\env\Scripts\activate
+ ```
 ### Instale as dependencias
 ```
 pip install -r requirements.txt
