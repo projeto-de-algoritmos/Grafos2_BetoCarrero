@@ -13,3 +13,7 @@ class FileController:
     def extract_init_graph(self) -> List[Dict[str, Dict[str, int]]]:
         init_graph = self.df.set_index('Destino').groupby('Origem').apply(lambda x: x.Peso.to_dict()).to_dict()
         return init_graph
+
+    def extract_positions(self) -> Dict[(int, int)]:
+        positions = self.df.set_index('Local').T.to_dict('list')
+        return positions
