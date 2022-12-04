@@ -33,7 +33,8 @@ ou se estiver usando windows
 
 ```
  .\env\Scripts\activate
- ```
+
+```
 ### Instale as dependencias
 ```
 pip install -r requirements.txt
