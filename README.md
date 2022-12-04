@@ -55,4 +55,4 @@ python -m unittest tests/unit/test_graph.py
 ```
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Este trabalho tem como finalidade mostrar os conhecimentos da dupla no uso de algoritimos em grafos e não possui fins comerciais. As imagens contidas neste repositório referentes ao mapa do parque, tais quais os nomes das atrações contidos nelas pertencem a J.B.WORLD ENTRETENIMENTOS S/A. e podem ser retirada caso solicitado. Os alunos e este trabalho não possuem quaisquer vinculo com a J.B.WORLD ENTRETENIMENTOS S/A. e seus patrocinadores. 
