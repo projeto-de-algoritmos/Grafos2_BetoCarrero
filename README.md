@@ -13,7 +13,10 @@
 Descreva os objetivos do seu projeto e como ele funciona. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![imagem 1](/public/screenshot1.PNG)
+![imagem 2](/public/screenshot2.PNG)
+![imagem 3](/public/screenshot3.PNG)
 
 ## Instalação 
 *Linguagem*: Python<br>
