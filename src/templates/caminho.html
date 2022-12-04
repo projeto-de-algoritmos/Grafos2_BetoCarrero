@@ -14,12 +14,12 @@
             </a>
         </div>
           <div align="center" style="margin-bottom: 2em;">
-            <img class="img-fluid rounded mx-auto d-block" width="60%" src="../static/images/mapa-beto-carrero-world-com-linhas.png" alt="" >
+            <img class="img-fluid rounded mx-auto d-block" width="60%" src="{{ url_for('static', filename=image) }}" alt="" >
         </div>
         <br>
         <div align="center" class="mb-5">
             {% if path | length > 0%}
-            <h3> <span class="badge bg-secondary">Para ir de {{partida}} para {{destino}} siga:</span></h3>
+            <h3> <span class="badge bg-secondary">Para ir de {{start_node}} para {{target_node}} siga:</span></h3>
             <ol style="width: 30%">
                     {% for i in path %}
                         <li>{{i}}</li>
@@ -27,7 +27,7 @@
                     {% endfor %}
             </ol>
             {% else %}
-                <h3> <span class="badge bg-secondary">Parece que você ja está em {{partida}}!</span></h3>
+                <h3> <span class="badge bg-secondary">Parece que você ja está em {{start_node}}!</span></h3>
             {% endif %}
         </div>
     </body>
