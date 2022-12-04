@@ -12,6 +12,10 @@
 ## Sobre 
 Esse projeto tem como objetivo utilizar o algoritmo de dijkstra para criar um caminho no mapa do Beto Carrero. Foi inspirado na experiência da dupla que quando precisava se locomover pelo parque geralmente fazia o maior percurso. 
 
+Mapa com todas as conexões.
+
+![mapa](/public/mapa-beto-carrero-world-com-linhas.png)
+
 ## Screenshots
 
 ![imagem 1](/public/screenshot1.PNG)
