@@ -1,0 +1,26 @@
+Origem,Destino,Peso
+Entrada,Mascotes,12
+Mascotes,Lilica e tigor,22
+Mascotes,alimentacao,9
+Mascotes,aldeia,10
+Lilica e tigor,vila germanica,8
+vila germanica,Ilha dos piratas,21
+vila germanica,raskapuska,23
+Ilha dos piratas,Barco pirata,12
+raskapuska,alimentacao,9
+raskapuska,chapeu,18
+chapeu,alimentacao,13
+chapeu,aldeia,10
+chapeu,sonho do cowboy,13
+chapeu,Mundo animal,27
+aldeia,hipica,12
+hipica,casa mal assombrada,15
+sonho do cowboy,casa mal assombrada,26
+Mundo animal,casa mal assombrada,34
+Mundo animal,Zoologico,14
+Mundo animal,Mundo da fantasia,32
+Mundo animal,Firewhip,54
+Zoologico,Mundo da fantasia,32
+Mundo da fantasia,Hot wheels,17
+Hot wheels,Tchibum,28
+Tchibum,Firewhip,13
