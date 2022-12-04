@@ -2,8 +2,8 @@ from typing import List, Dict
 import pandas as pd
 
 class FileController:
-    def __init__(self, name: str) -> None:
-        self.path = 'static/db/' + name
+    def __init__(self, name: str, path: str = 'static/db/') -> None:
+        self.path =  path + name
         self.df = pd.read_csv(self.path)
 
     def extract_nodes(self) -> List[str]:
