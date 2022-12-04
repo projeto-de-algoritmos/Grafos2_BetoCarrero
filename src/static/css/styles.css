@@ -1,3 +1,13 @@
-p{
-    color: blueviolet;
+
+.vl {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: #6A6A6A;
+    border-color: #6A6A6A;
+    border-radius: 7px;
+    height: 135px;
+    width: 3px;
+    padding: 0;
+    float: left;
 }
+

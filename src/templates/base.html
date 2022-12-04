@@ -8,13 +8,13 @@
   <body>
     <div class="p-3 ps-5 mb-5">
     </div>
-      <div align="center">
+      <div align="center" style="margin-bottom: 2em;">
         <img class="img-fluid rounded mx-auto d-block" width="60%" src="../static/images/mapa-beto-carrero-world.png">
       </div>
       <div  style="margin:0 auto; width: 500px">
         <form action="{{ url_for('index') }} " method = 'post' class="")>
             <div align="center" class="grid">
-                <div style="float:left;" class="m-3">
+                <div style="float:left;" class="m-2">
                     <label for="fname">Escolha o ponto de partida:</label><br><br>
                     <select name="start" class="form-select" aria-label="Default select example">
                         {% for i in nodes %}
@@ -22,7 +22,9 @@
                         {% endfor %}
                     </select>
                 </div>
-                <div style="float:left;" class="m-3">
+                <div class="m-4 vl">
+                </div>
+                <div style="float:left;" class="m-2">
                     <label for="fname">Escolha até onde deseja ir:</label><br><br>
                     <select name="target" style="width: 200px" class="form-select" aria-label="Default select example">
                         {% for i in nodes %}
