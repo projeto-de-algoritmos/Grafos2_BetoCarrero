@@ -10,7 +10,7 @@
 | 18/0119818  |  Felipe Boccardi Silva Agustini |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Esse projeto tem como objetivo utilizar o algoritmo de dijkstra para criar um caminho no mapa do Beto Carrero. Foi inspirado na experiência da dupla que quando precisava se locomover pelo parque geralmente fazia o maior percurso. 
 
 ## Screenshots
 
