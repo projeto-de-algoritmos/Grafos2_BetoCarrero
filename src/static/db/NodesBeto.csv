@@ -2,19 +2,19 @@ Origem,Destino,Peso
 Entrada,Mascotes,12
 Mascotes,Lilica e tigor,22
 Mascotes,Alimentacao,9
-Mascotes,aldeia,10
-Lilica e tigor,vila germanica,8
-vila germanica,Ilha dos piratas,21
-vila germanica,Raskapuska,23
+Mascotes,Aldeia,10
+Lilica e tigor,Vila germanica,8
+Vila germanica,Ilha dos piratas,21
+Vila germanica,Raskapuska,23
 Ilha dos piratas,Barco pirata,12
 Raskapuska,Alimentacao,9
 Raskapuska,Chapeu,18
 Chapeu,Alimentacao,13
-Chapeu,aldeia,10
+Chapeu,Aldeia,10
 Chapeu,Sonho do cowboy,13
 Chapeu,Mundo animal,27
-aldeia,hipica,12
-hipica,Casa mal assombrada,15
+Aldeia,Hipica,12
+Hipica,Casa mal assombrada,15
 Sonho do cowboy,Casa mal assombrada,26
 Mundo animal,Casa mal assombrada,34
 Mundo animal,Zoologico,14
